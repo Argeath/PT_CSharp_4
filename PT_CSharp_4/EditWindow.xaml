@@ -1,0 +1,27 @@
+﻿<Window x:Class="PT_CSharp_4.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PT_CSharp_4"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="300.636" Width="223.729">
+    <Grid>
+        <Label Content="Car:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Engine:" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="Model:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" FontSize="8" Width="63" Height="23"/>
+        <Label Content="Year:" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" FontSize="8" Width="63" Height="23"/>
+        <Label Content="Model:" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" FontSize="8" Width="63" Height="23"/>
+        <Label Content="Displacement:" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" FontSize="8" Width="63" Height="23"/>
+        <Label Content="Horse Power:" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top" FontSize="8" Width="63" Height="23"/>
+
+        <TextBox x:Name="modelInput" HorizontalAlignment="Left" Height="23" Margin="73,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="yearInput" HorizontalAlignment="Left" Height="23" Margin="73,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="engineModelInput" HorizontalAlignment="Left" Height="23" Margin="73,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="engineDisplacementInput" HorizontalAlignment="Left" Height="23" Margin="73,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="engineHorsePowerInput" HorizontalAlignment="Left" Height="23" Margin="73,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" VerticalContentAlignment="Center"/>
+        <Button Content="Save" HorizontalAlignment="Center" Margin="0,235,0,0" VerticalAlignment="Top" Width="75" Click="Save_Click"/>
+
+
+    </Grid>
+</Window>
